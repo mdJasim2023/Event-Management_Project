@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Outlet } from 'react-router-dom';
+import Nav from './My Components/Nav';
 function App() {
   return (
     <div className="App">
-        <h1>jasim</h1>
+      <Nav></Nav>
+        <Outlet></Outlet>
     </div>
   );
 }

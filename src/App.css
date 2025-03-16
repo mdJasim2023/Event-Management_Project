@@ -1,0 +1,27 @@
+
+.homepage{
+    background-image: url("https://images.pexels.com/photos/8753541/pexels-photo-8753541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 90vh;
+    background-size:contain;
+}
+
+.homepage div button{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.eventlist{
+    background-color:rgb(154, 132, 117);
+    border-radius: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: aliceblue;
+    position: sticky;
+    top: 0px;
+}
+
+
